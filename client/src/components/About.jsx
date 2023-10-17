@@ -62,7 +62,7 @@ function About() {
     };
 
     return (
-        <motion.div initial="hidden" animate="visible" className="bg-gray-100 pt-32 min-h-screen p-8">
+        <motion.div initial="hidden" name="about" animate="visible" className="bg-gray-100 pt-32 min-h-screen p-8">
             <motion.h1 
                 className="text-4xl font-bold my-10 text-center text-blue-600 transform transition-all duration-500"
                 variants={titleVariants}
